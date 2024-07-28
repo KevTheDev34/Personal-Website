@@ -15,3 +15,32 @@ Gallery of my projects. Interactable. Maybe switch between a grid and list forma
 ## Contact
 
 Link to download my resume, links to my GitHub and my LinkedIn, and links to my social (Spotify, Steam maybe, idk things that I'm ok people seeing lmao, might need to fix my Instagram)
+
+
+
+LeftSide(
+<div>
+   <h1>Kevyn Ramirez</h1>
+   <h5>Aspiring Developer</h5>
+
+   {list of anchors to scroll right side}
+
+   {list of social media links}
+   list of </Link> {props = link.url, link.img}
+</div>
+)
+
+
+RightSide(
+<div>
+   <p>description of myself with highlighted words</p>
+
+   <div>
+      </Project> {props = proj.screenshot, proj.description, proj.technologies(array of strings)}
+      </Project>
+   </div>
+
+   </ContactForm>
+
+</div>
+)

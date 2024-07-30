@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  height: 100vh;
+  background-color: aqua;
 }
 
 .App-logo {
@@ -35,4 +38,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Left half div */
+.left-section {
+  width: 50%;
+  position: fixed;
+  height: 100%;
+  overflow: hidden; /* Ensures that the content does not scroll */
+}
+
+/* Right half div */
+.right-section {
+  width: 50%;
+  margin-left: 50%; /* Push the right half to the right side */
+  height: 100%;
+  overflow-y: scroll; /* Allows vertical scrolling */
 }

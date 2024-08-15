@@ -5,7 +5,7 @@ import RightSide from './RightSide.jsx';
 function App() {
   return (
     <div className="App">
-      <title>Kev The Dev</title>
+      {/* <title>Kev The Dev</title> */}
       <div className='left-section'>
         <LeftSide />
       </div>
@@ -14,6 +14,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
